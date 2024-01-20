@@ -12,4 +12,10 @@ public class MainTest {
         assert main.sumFunction(1, 2) == 3;
     }
 
+    @Test
+    public void testSubFunction() {
+        Main main = new Main();
+        assert main.subFunction(1, 2) == -1;
+    }
+
 }
